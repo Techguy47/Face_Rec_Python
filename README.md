@@ -1,4 +1,4 @@
-# Face_Rec_Python
+# Basic Face Recognition using Python
 
 *Use any python version below 3.11. Tested using Python version 3.10.7.*
 
