@@ -20,8 +20,10 @@ This is a repository to showcase code for face recognition using python.
 
       Note - Use Python IDEs to code and execute programs such as PyCharm or VS Code.
 
-      1. Add the .xml file to this line :
-face_cascade = cv2.CascadeClassifier(PATH TO YOUR haarcascades.XML FILE NOTE - INCLUDE DOUBLE INVERTED APHOSTROPE)
+_____________________________________________________________________________________________________________________________________________________________________________________________________________
+
+1. Add the .xml file to this line :
+face_cascade = cv2.CascadeClassifier(PATH TO YOUR haarcascades.XML)
 
 *Note : This file can be found at 
                 1. Default OpenCV installation folder : 
