@@ -9,15 +9,21 @@ This is a repository to showcase code for face recognition using python.
 2. install the following python dependencies : 
      
      1. Open CV Library
+       
         Install command :
+
         ```pip install opencv-python```
 
-    2. Tensorflow
+    3. Tensorflow
+
        Install command :
+
        ```pip install tensorflow```
 
-   3. Deepface
+   4. Deepface
+
       Install command :
+
       ```pip install deepface```
   
 
@@ -38,7 +44,8 @@ face_cascade = cv2.CascadeClassifier(PATH TO YOUR haarcascades.XML)
                 /usr/local/lib/python3.x/dist-packages/cv2/data (Linux/macOS)
 
 3. Link to the file : 
-                                      Open CV GitHub Repo : https://github.com/opencv/opencv/tree/4.x/data/haarcascades
+
+   Open CV GitHub Repo : https://github.com/opencv/opencv/tree/4.x/data/haarcascades
 
 
    Note : When manually defining the path to the file, use double slahes (C:\\\User\\\Username-----). This is because in                                                                                                   Python, a single backslash is for escape.*
