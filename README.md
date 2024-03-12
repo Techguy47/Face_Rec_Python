@@ -39,6 +39,7 @@ ________________________________________________________________________________
 face_cascade = cv2.CascadeClassifier(PATH TO YOUR haarcascades.XML)
 
 *Note : This file can be found at 
+
 2. Default OpenCV installation folder : 
                 C:\Python3x\Lib\site-packages\cv2\data (Windows)
                 /usr/local/lib/python3.x/dist-packages/cv2/data (Linux/macOS)
