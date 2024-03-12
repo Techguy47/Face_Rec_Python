@@ -5,7 +5,9 @@
 This is a repository to showcase code for face recognition using python.
 
 1. Download all the files from the latest relase
+
 2. install the following python dependencies : 
+     
      1. Open CV Library
         Install command :
         ```pip install opencv-python```
@@ -19,9 +21,13 @@ This is a repository to showcase code for face recognition using python.
       ```pip install deepface```
   
 
-      Note - Use Python IDEs to code and execute programs such as PyCharm or VS Code.
+
+   Note - Use Python IDEs to code and execute programs such as PyCharm or VS Code.
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________
+
+# **EDITING CODE**
+
 
 1. Add the .xml file to this line :
 face_cascade = cv2.CascadeClassifier(PATH TO YOUR haarcascades.XML)
