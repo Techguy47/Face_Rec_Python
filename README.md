@@ -33,38 +33,40 @@ ________________________________________________________________________________
 face_cascade = cv2.CascadeClassifier(PATH TO YOUR haarcascades.XML)
 
 *Note : This file can be found at 
-1. Default OpenCV installation folder : 
+2. Default OpenCV installation folder : 
                 C:\Python3x\Lib\site-packages\cv2\data (Windows)
                 /usr/local/lib/python3.x/dist-packages/cv2/data (Linux/macOS)
 
-2. Link to the file : 
+3. Link to the file : 
                                       Open CV GitHub Repo : https://github.com/opencv/opencv/tree/4.x/data/haarcascades
 
 
    Note : When manually defining the path to the file, use double slahes (C:\\\User\\\Username-----). This is because in                                                                                                   Python, a single backslash is for escape.*
                                       
 
-4. The change the default code used, change "0" in this line to any number required (mostly 1-3) Note - "0" means the default camera.
+4. To change the default camera used, edit line : 10
+  
+   Note - "0" means the default camera.
 
-   cap = cv2.VideoCapture(0)
+   ```cap = cv2.VideoCapture(0)```
 
-5. To change the name of the window that pops up, edit this line :
+5. To change the name of the window that pops up, edit line : 14
 
-    window.title("Face Recognition with Details")
+    ```window.title("Face Recognition with Details")```
 
-6. To change the size of the camera window, change this :
+6. To change the size of the camera window, edit line : 15
 
-    window.geometry("925x480")
+    ```window.geometry("925x480")```
 
-7. Chnage heading font and text of window :
+7. To chnage heading font and text of window, edit line : 17 & 18
 
-    heading_font = ("Lora", 23, "bold")
+    ```heading_font = ("Lora", 23, "bold")```
 
-    heading_text = "The details of this person are :"
+    ```heading_text = "The details of this person are :"```
 
-8. Change body font :
+8. To change body font, edit line : 23
 
-   body_font = ("Montserrat", 16) 
+   ```body_font = ("Montserrat", 16)``` 
 
 9. Edit table contents :
 
