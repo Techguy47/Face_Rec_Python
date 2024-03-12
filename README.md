@@ -41,7 +41,7 @@ face_cascade = cv2.CascadeClassifier(PATH TO YOUR haarcascades.XML)
                                       Open CV GitHub Repo : https://github.com/opencv/opencv/tree/4.x/data/haarcascades
 
 
-   Note : When manually defining the path to the file, use double slahes (C:\\User\\Username-----). This is because in                                                                                                   Python, a single backslash is for escape.*
+   Note : When manually defining the path to the file, use double slahes (C:\\\User\\\Username-----). This is because in                                                                                                   Python, a single backslash is for escape.*
                                       
 
 4. The change the default code used, change "0" in this line to any number required (mostly 1-3) Note - "0" means the default camera.
