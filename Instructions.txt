@@ -1,0 +1,42 @@
+To use this code :
+
+1. Use python version 3.10.7 (Any version below 3.11)
+2. When installing python, check the "Add bin to path" checkbox
+3. Open Windows Powershell (Your command line for mac or linux)
+4. Run : pip install opency-python
+5. Run : pip install tensorflow
+6: Run : pip install deepface
+7. Use any IDE to save and run the program.
+Note - When using PyCharm, you must install the dependencies from the terminal in PyCharm. This is because PyCharm creates a virtual environment.
+
+Editing the code : 
+
+1. Add the .xml file to this line :
+face_cascade = cv2.CascadeClassifier(PATH TO YOUR haarcascades.XML FILE NOTE - INCLUDE DOUBLE INVERTED APHOSTROPE)
+
+2. The change the default code used, change "0" in this line to any number required (mostly 1-3) Note - "0" means the default camera.
+cap = cv2.VideoCapture(0)
+
+3. To change the name of the window that pops up, edit this line :
+window.title("Face Recognition with Details")
+
+4. To change the size of the camera window, change this :
+window.geometry("925x480")
+
+5. Chnage heading font and text of window :
+heading_font = ("Lora", 23, "bold")
+heading_text = "The details of this person are :"
+
+6. Change body font :
+body_font = ("Montserrat", 16) 
+
+7. Edit table contents :
+text_list = [
+    ["1", "5", "9"],
+    ["2", "6", "10"],
+    ["3", " 7", "11"],
+    ["4" , "8" , "12"]
+]
+
+
+
